@@ -1,0 +1,533 @@
+____________________________________________________________________
+			P o w e r T O P
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+PowerTOP Version;2.13 ran at Thu Jun 30 17:33:09 2022
+
+Kernel Version;Linux version 5.3.18-150300.59.76-default
+System Name;pc-q35-6.2
+CPU Information;8 11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz
+OS Information;Harvester ea2c3e7-dirty
+
+Target: 1 units/s;System:  1691.3 wakeup/s;CPU:  18.1% usage;GPU: 0 ops/s;GFX: 0 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description;PW Estimate
+  0.4%;654.1;Timer;hrtimer_wakeup;  2.59 W  
+  0.1%;103.0;Timer;tick_sched_timer;  408 mW  
+  0.0%; 75.1;Process;[PID 2316] etcd --config-file=/var/lib/rancher/rke2/server/db/etcd/config ;  297 mW  
+  0.1%; 52.8;Process;[PID 22267] grafana-server --homepath=/usr/share/grafana --config=/etc/grafana/grafana.ini --packaging=docker cfg:default.log.m;  210 mW  
+  0.0%; 33.7;Process;[PID 2403] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-;  133 mW  
+  0.0%; 30.6;Process;[PID 25712] rancher --http-listen-port=80 --https-listen-port=443 --audit-log-path=/var/log/auditlog/rancher-api-audit.log --au;  121 mW  
+  0.2%; 28.3;Process;[PID 2304] etcd --config-file=/var/lib/rancher/rke2/server/db/etcd/config ;  115 mW  
+  0.1%; 26.5;Process;[PID 11854] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address;  106 mW  
+  0.0%; 26.6;Process;[PID 12189] kube-controller-manager --flex-volume-plugin-dir=/var/lib/kubelet/volumeplugins --terminated-pod-gc-threshold=1000 ;  105 mW  
+  0.1%; 26.1;Process;[PID 2405] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-;  105 mW  
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+;
+;
+;
+
+CPU;0
+;;
+;;
+;;
+
+Package;1
+;
+;
+;
+
+CPU;1
+;;
+;;
+;;
+
+Package;2
+;
+;
+;
+
+CPU;2
+;;
+;;
+;;
+
+Package;3
+;
+;
+;
+
+CPU;3
+;;
+;;
+;;
+
+Package;4
+;
+;
+;
+
+CPU;4
+;;
+;;
+;;
+
+Package;5
+;
+;
+;
+
+CPU;5
+;;
+;;
+;;
+
+Package;6
+;
+;
+;
+
+CPU;6
+;;
+;;
+;;
+
+Package;7
+;
+;
+;
+
+CPU;7
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 0
+Idle; 100.0% 
+;
+;
+
+Package;1
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 1
+Idle; 100.0% 
+;
+;
+
+Package;2
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 2
+Idle; 100.0% 
+;
+;
+
+Package;3
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 3
+Idle; 100.0% 
+;
+;
+
+Package;4
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 4
+Idle; 100.0% 
+;
+;
+
+Package;5
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 5
+Idle; 100.0% 
+;
+;
+
+Package;6
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 6
+Idle; 100.0% 
+;
+;
+
+Package;7
+Idle; 100.0% 
+;
+;
+;
+;
+
+CPU 7
+Idle; 100.0% 
+;
+;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description;PW Estimate
+  3.6 ms/s;654.1;;;;Timer;hrtimer_wakeup;  2.59 W  
+  0.9 ms/s;103.0;;;;Timer;tick_sched_timer;  408 mW  
+215.8 us/s; 75.1;;;;Process;[PID 2316] etcd --config-file=/var/lib/rancher/rke2/server/db/etcd/config ;  297 mW  
+  1.1 ms/s; 52.8;;;;Process;[PID 22267] grafana-server --homepath=/usr/share/grafana --config=/etc/grafana/grafana.ini --packaging=docker cfg:default.log.m;  210 mW  
+ 96.3 us/s; 33.7;;;;Process;[PID 2403] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-;  133 mW  
+ 93.1 us/s; 30.6;;;;Process;[PID 25712] rancher --http-listen-port=80 --https-listen-port=443 --audit-log-path=/var/log/auditlog/rancher-api-audit.log --au;  121 mW  
+  1.9 ms/s; 28.3;;;;Process;[PID 2304] etcd --config-file=/var/lib/rancher/rke2/server/db/etcd/config ;  115 mW  
+539.9 us/s; 26.5;;;;Process;[PID 11854] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address;  106 mW  
+ 82.3 us/s; 26.6;;;;Process;[PID 12189] kube-controller-manager --flex-volume-plugin-dir=/var/lib/kubelet/volumeplugins --terminated-pod-gc-threshold=1000 ;  105 mW  
+  1.0 ms/s; 26.1;;;;Process;[PID 2405] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-;  105 mW  
+ 49.6 ms/s;  5.2;;;;Process;[PID 15606] harvester ; 97.8 mW  
+  6.0 ms/s; 20.8;;;;Interrupt;[3] net_rx(softirq); 91.7 mW  
+  1.3 ms/s; 20.6;;;;Process;[PID 2412] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-; 83.4 mW  
+  0.9 ms/s; 20.3;;;;Process;[PID 12986] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address; 81.6 mW  
+ 38.5 ms/s;  4.2;;;;Process;[PID 15614] harvester ; 76.6 mW  
+  1.6 ms/s; 18.6;;;;Process;[PID 2416] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-; 75.9 mW  
+  1.1 ms/s; 18.6;;;;Process;[PID 2417] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-; 75.2 mW  
+ 74.5 us/s; 18.4;;;;Process;[PID 11803] /usr/local/bin/rke2 server ; 72.8 mW  
+  0.7 ms/s; 17.9;;;;Process;[PID 2418] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-; 71.8 mW  
+547.7 us/s; 17.9;;;;Process;[PID 12990] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address; 71.5 mW  
+664.9 us/s; 17.7;;;;Process;[PID 12991] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address; 70.9 mW  
+542.3 us/s; 17.0;;;;Process;[PID 2420] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-; 68.2 mW  
+458.7 us/s; 14.2;;;;Process;[PID 11961] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address; 56.8 mW  
+ 69.1 us/s; 12.5;;;;Process;[PID 15600] harvester ; 49.7 mW  
+ 43.4 us/s; 11.7;;;;Process;[PID 17921] longhorn-instance-manager --debug daemon --listen 0.0.0.0:8500 ; 46.5 mW  
+115.3 us/s; 10.2;;;;Process;[PID 4268] calico-node -felix ; 40.7 mW  
+ 25.0 us/s;  9.6;;;;Process;[PID 12231] kube-scheduler --permit-port-sharing=true --address=127.0.0.1 --bind-address=127.0.0.1 --cert-dir=/var/lib/rancher/; 38.1 mW  
+ 17.9 ms/s;  2.1;;;;Process;[PID 15601] harvester ; 36.4 mW  
+ 29.5 us/s;  9.2;;;;Process;[PID 11831] containerd -c /var/lib/rancher/rke2/agent/etc/containerd/config.toml -a /run/k3s/containerd/containerd.sock --state; 36.4 mW  
+ 26.1 us/s;  8.6;;;;Process;[PID 15982] node-disk-manager ; 34.2 mW  
+277.1 us/s;  8.3;;;;Process;[PID 2415] etcd --config-file=/var/lib/rancher/rke2/server/db/etcd/config ; 33.4 mW  
+ 34.1 us/s;  8.4;;;;Process;[PID 11] [rcu_sched]; 33.2 mW  
+ 23.8 us/s;  7.9;;;;Process;[PID 11849] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address; 31.4 mW  
+  0.9 ms/s;  7.4;;;;Process;[PID 2413] kube-apiserver --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --allow-privileged=true --anonymous-; 30.7 mW  
+  8.3 ms/s;  4.3;;;;Process;[PID 15605] harvester ; 30.0 mW  
+124.9 us/s;  7.3;;;;Process;[PID 12195] kube-controller-manager --flex-volume-plugin-dir=/var/lib/kubelet/volumeplugins --terminated-pod-gc-threshold=1000 ; 29.2 mW  
+243.0 us/s;  7.2;;;;Process;[PID 12198] kube-controller-manager --flex-volume-plugin-dir=/var/lib/kubelet/volumeplugins --terminated-pod-gc-threshold=1000 ; 28.8 mW  
+ 31.1 us/s;  6.6;;;;Process;[PID 4171] calico-node -felix ; 26.3 mW  
+ 23.4 us/s;  6.5;;;;Process;[PID 16874] longhorn-manager -d daemon --engine-image longhornio/longhorn-engine:v1.3.0 --instance-manager-image longhornio/lon; 25.9 mW  
+135.9 us/s;  6.5;;;;kWork;blk_mq_requeue_work; 25.9 mW  
+279.4 us/s;  6.3;;;;Process;[PID 2325] etcd --config-file=/var/lib/rancher/rke2/server/db/etcd/config ; 25.3 mW  
+130.0 us/s;  6.0;;;;Process;[PID 27047] rancher --http-listen-port=80 --https-listen-port=443 --audit-log-path=/var/log/auditlog/rancher-api-audit.log --au; 24.1 mW  
+171.8 us/s;  5.8;;;;Process;[PID 25716] rancher --http-listen-port=80 --https-listen-port=443 --audit-log-path=/var/log/auditlog/rancher-api-audit.log --au; 23.4 mW  
+ 63.1 us/s;  5.2;;;;Process;[PID 5215] calico-node -felix ; 20.8 mW  
+ 16.3 us/s;  5.2;;;;Process;[PID 6149] runc; 20.8 mW  
+127.1 us/s;  5.1;;;;Process;[PID 14483] /kube-vip-cloud-provider --leader-elect-resource-name=kube-vip-cloud-controller ; 20.3 mW  
+ 21.9 us/s;  5.0;;;;Process;[PID 10818] /nginx-ingress-controller --election-id=ingress-controller-leader --controller-class=k8s.io/ingress-nginx --configm; 19.8 mW  
+  1.1 ms/s;  4.5;;;;Process;[PID 6158] calico-node; 19.7 mW  
+  9.5 ms/s;  1.1;;;;Process;[PID 15607] harvester ; 19.1 mW  
+ 94.2 us/s;  4.6;;;;Process;[PID 12192] kube-controller-manager --flex-volume-plugin-dir=/var/lib/kubelet/volumeplugins --terminated-pod-gc-threshold=1000 ; 18.5 mW  
+ 14.7 us/s;  4.5;;;;Process;[PID 15544] harvester-load-balancer ; 17.8 mW  
+ 17.9 us/s;  4.4;;;;Process;[PID 15862] longhorn-manager admission-webhook --service-account longhorn-service-account ; 17.6 mW  
+ 16.9 us/s;  4.4;;;;Process;[PID 7428] gitjob --tekton-image rancher/tekton-utils:v0.1.5 ; 17.4 mW  
+ 79.2 us/s;  4.3;;;;Process;[PID 4267] calico-node -felix ; 17.3 mW  
+  2.5 ms/s;  3.3;;;;Interrupt;[7] sched(softirq); 17.0 mW  
+354.8 us/s;  4.1;;;;Process;[PID 6148] runc; 16.9 mW  
+ 20.5 us/s;  4.2;;;;Process;[PID 7432] fleetcontroller ; 16.8 mW  
+273.5 us/s;  3.6;;;;Process;[PID 15990] node-disk-manager ; 14.6 mW  
+  2.2 ms/s;  2.8;;;;Process;[PID 15613] harvester ; 14.6 mW  
+ 11.1 us/s;  3.5;;;;Process;[PID 22970] virt-controller --launcher-image registry.suse.com/harvester-beta/virt-launcher:0.49.0-2 --port 8443 -v 2 ; 14.0 mW  
+ 12.9 us/s;  3.5;;;;Process;[PID 14995] virt-operator --port 8443 -v 2 ; 13.8 mW  
+ 12.9 us/s;  3.5;;;;Process;[PID 15858] longhorn-manager admission-webhook --service-account longhorn-service-account ; 13.8 mW  
+ 10.4 us/s;  3.5;;;;Process;[PID 3612] /var/lib/rancher/rke2/data/v1.21.11-rke2r1-a2c827fdad5b/bin/containerd-shim-runc-v2 -namespace k8s.io -id ec10307713; 13.8 mW  
+ 71.6 us/s;  3.4;;;;Process;[PID 12196] kube-controller-manager --flex-volume-plugin-dir=/var/lib/kubelet/volumeplugins --terminated-pod-gc-threshold=1000 ; 13.7 mW  
+  9.8 us/s;  3.4;;;;Process;[PID 16595] /bin/operator --kubelet-service=kube-system/rancher-monitoring-kubelet --localhost=127.0.0.1 --prometheus-config-re; 13.4 mW  
+  1.4 ms/s;  2.6;;;;Process;[PID 21147] containerd -c /var/lib/rancher/rke2/agent/etc/containerd/config.toml -a /run/k3s/containerd/containerd.sock --state; 12.5 mW  
+ 96.6 us/s;  2.9;;;;Process;[PID 11850] kubelet --volume-plugin-dir=/var/lib/kubelet/volumeplugins --file-check-frequency=5s --sync-frequency=30s --address; 11.6 mW  
+ 52.6 us/s;  2.9;;;;Process;[PID 3619] /var/lib/rancher/rke2/data/v1.21.11-rke2r1-a2c827fdad5b/bin/containerd-shim-runc-v2 -namespace k8s.io -id ec10307713; 11.5 mW  
+ 13.6 us/s;  2.8;;;;Process;[PID 6168] calico-node; 11.1 mW  
+  9.7 us/s;  2.8;;;;Process;[PID 23146] /bin/prometheus --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_li; 11.1 mW  
+ 13.3 us/s;  2.7;;;;Process;[PID 6073] kubectl; 10.9 mW  
+ 10.9 us/s;  2.7;;;;Process;[PID 5856] /coredns -conf /etc/coredns/Corefile ; 10.9 mW  
+102.0 us/s;  2.6;;;;Process;[PID 25721] rancher --http-listen-port=80 --https-listen-port=443 --audit-log-path=/var/log/auditlog/rancher-api-audit.log --au; 10.6 mW  
+  7.5 us/s;  2.6;;;;Process;[PID 6159] runc:[2:INIT]; 10.3 mW  
+128.4 us/s;  2.5;;;;Process;[PID 21803] node-disk-manager ; 10.3 mW  
+ 51.8 us/s;  2.5;;;;Process;[PID 21425] longhorn-instance-manager --debug daemon --listen 0.0.0.0:8500 ; 10.1 mW  
+ 18.5 us/s;  2.4;;;;Process;[PID 9429] fleetagent ; 9.51 mW  
+ 57.7 us/s;  2.3;;;;Process;[PID 15988] node-disk-manager ; 9.37 mW  
+ 29.8 us/s;  2.3;;;;Process;[PID 21341] /engine-binaries/longhornio-longhorn-engine-v1.3.0/longhorn controller pvc-7120e8f8-6cf3-413d-aa20-8abafd2998ea --f; 9.33 mW  
+ 28.1 us/s;  2.3;;;;Process;[PID 3618] /var/lib/rancher/rke2/data/v1.21.11-rke2r1-a2c827fdad5b/bin/containerd-shim-runc-v2 -namespace k8s.io -id ec10307713; 9.32 mW  
+126.8 us/s;  2.3;;;;Process;[PID 25719] rancher --http-listen-port=80 --https-listen-port=443 --audit-log-path=/var/log/auditlog/rancher-api-audit.log --au; 9.28 mW  
+ 92.2 us/s;  2.3;;;;Process;[PID 6178] calico-node; 9.23 mW  
+ 14.8 us/s;  2.2;;;;Process;[PID 6155] runc; 8.71 mW  
+ 10.4 us/s;  2.1;;;;Process;[PID 6150] runc; 8.51 mW  
+  1.1 ms/s;  1.7;;;;Process;[PID 2662] cloud-controller-manager --allocate-node-cidrs=true --bind-address=127.0.0.1 --cloud-provider=rke2 --cluster-cidr=10; 8.41 mW  
+ 13.6 us/s;  2.1;;;;kWork;cgroup_pidlist_destroy_work_fn; 8.31 mW  
+  1.9 ms/s;  1.3;;;;Process;[PID 19299] containerd -c /var/lib/rancher/rke2/agent/etc/containerd/config.toml -a /run/k3s/containerd/containerd.sock --state; 8.11 mW  
+ 19.1 us/s;  2.0;;;;kWork;free_work; 7.93 mW  
+ 76.4 us/s;  1.9;;;;Process;[PID 11820] /usr/local/bin/rke2 server ; 7.62 mW  
+ 48.0 us/s;  1.9;;;;Process;[PID 11844] /usr/local/bin/rke2 server ; 7.58 mW  
+450.3 us/s;  1.7;;;;Process;[PID 3911] containerd -c /var/lib/rancher/rke2/agent/etc/containerd/config.toml -a /run/k3s/containerd/containerd.sock --state ; 7.42 mW  
+ 57.1 us/s;  1.8;;;;Process;[PID 25720] rancher --http-listen-port=80 --https-listen-port=443 --audit-log-path=/var/log/auditlog/rancher-api-audit.log --au; 7.39 mW  
+370.6 us/s;  1.7;;;;Process;[PID 6158] runc:[2:INIT]; 7.29 mW  
+ 59.2 us/s;  1.7;;;;Process;[PID 6187] calico-node; 7.00 mW  
+  3.0 ms/s;  0.6;;;;Process;[PID 26887] containerd -c /var/lib/rancher/rke2/agent/etc/containerd/config.toml -a /run/k3s/containerd/containerd.sock --state; 7.00 mW  
+102.6 us/s;  1.7;;;;Process;[PID 11809] /usr/local/bin/rke2 server ; 6.87 mW  
+214.0 us/s;  1.6;;;;Process;[PID 27242] containerd -c /var/lib/rancher/rke2/agent/etc/containerd/config.toml -a /run/k3s/containerd/containerd.sock --state; 6.85 mW  
+ 12.3 us/s;  1.7;;;;Process;[PID 6151] runc; 6.73 mW  
+  8.0 us/s;  1.7;;;;Process;[PID 23559] virt-handler --port 8443 --hostname-override testvmharvester --pod-ip-address 10.52.0.67 --max-metric-requests 3 --; 6.73 mW  
+ 92.5 us/s;  1.6;;;;Process;[PID 16901] longhorn-manager -d daemon --engine-image longhornio/longhorn-engine:v1.3.0 --instance-manager-image longhornio/lon; 6.66 mW  
+
+
+The system baseline power is estimated at:  55.7  W;
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name;PW Estimate
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;CPU misc;  6.96 W   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;CPU core;    0 mW   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;CPU core;    0 mW   
+ 18.1%;CPU core;    0 mW   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;CPU core;    0 mW   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;CPU core;    0 mW   
+ 18.1%;CPU core;    0 mW   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;CPU core;    0 mW   
+ 18.1%;DRAM;    0 mW   
+ 18.1%;CPU core;    0 mW   
+113.3 pkts/s;nic:cali886d8333cfd;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Intel Corporation 82801IB (ICH9) LPC Interface Controller;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];           
+100.0%;PCI Device: Red Hat, Inc. Virtio console;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. Virtio memory balloon;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. Virtio block device;           
+100.0%;PCI Device: Red Hat, Inc. QXL paravirtual graphic card;           
+100.0%;PCI Device: Red Hat, Inc. QEMU XHCI Host Controller;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. Virtio RNG;           
+100.0%;PCI Device: Intel Corporation 82G33/G31/P35/P31 Express DRAM Controller;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+100.0%;PCI Device: Red Hat, Inc. Virtio network device;           
+100.0%;PCI Device: Red Hat, Inc. QEMU PCIe Root port;           
+ 92.8 pkts/s;nic:calic2636d994c0;           
+ 63.4 pkts/s;nic:calie8aa9cdc5d3;           
+ 60.0 pkts/s;nic:cali1fa3bf118cd;           
+ 47.7 pkts/s;nic:cali069f8f26f89;           
+ 47.3 pkts/s;nic:cali82fcf408c6f;           
+ 40.4 pkts/s;nic:calif2f4dc74e24;           
+ 39.6 pkts/s;nic:calif83974f8c40;           
+ 29.0 pkts/s;nic:cali6d72c55369e;           
+ 17.9 pkts/s;nic:calic7d8b9b069e;           
+ 17.6 pkts/s;nic:cali315006a2416;           
+ 15.1 pkts/s;nic:calid9720e309b2;           
+ 12.5 pkts/s;nic:cali21f73dabc76;           
+ 11.8 pkts/s;nic:cali6d644463994;           
+ 11.7 pkts/s;nic:calia9021ddc71a;           
+ 11.3 pkts/s;nic:cali2b580cf2765;           
+  7.7 pkts/s;nic:cali49efc474ab5;           
+  7.5 pkts/s;Network interface: enp1s0 (virtio_net);           
+  7.5 pkts/s;nic:harvester-mgmt;           
+  7.3 pkts/s;nic:caliab0561eac32;           
+  6.7 pkts/s;nic:cali93d98237a0e;           
+  5.5 pkts/s;nic:cali3600f142a9e;           
+  5.1 pkts/s;nic:calibc0e1c48eb2;           
+  4.8 pkts/s;nic:cali31fc416ce9c;           
+  4.2 pkts/s;nic:calie7d4bd693f2;           
+  3.5 pkts/s;nic:cali00c7df41f8a;           
+  3.4 pkts/s;nic:calied1bc448c07;           
+  3.3 pkts/s;nic:cali10f4816bd80;           
+  3.0 pkts/s;nic:calife61d32037c;           
+  2.9 pkts/s;nic:cali2c17a2de9c7;           
+  2.6 pkts/s;nic:calif0172cdd837;           
+  2.3 pkts/s;nic:cali3635d9d3d74;           
+  1.3 pkts/s;nic:cali0ba8192d1b2;           
+  1.1 pkts/s;nic:cali3ff46a0aebd;           
+  1.0 pkts/s;nic:cali05525673765;           
+  0.8 pkts/s;nic:cali69b87e39856;           
+  0.7 pkts/s;nic:calic705c59d385;           
+  0.7 pkts/s;nic:cali57bc9c839ff;           
+  0.6 pkts/s;nic:cali44c01772fed;           
+  0.5 pkts/s;nic:cali7f1db51210c;           
+  0.5 pkts/s;nic:calie0993ba6d7d;           
+  0.5 pkts/s;nic:cali23dd7a2cf8f;           
+  0.5 pkts/s;nic:cali0f7fa40cbc8;           
+  0.5 pkts/s;nic:cali961a1dc501a;           
+  0.5 pkts/s;nic:calie5ac09cee9d;           
+  0.5 pkts/s;nic:cali13d5edf0122;           
+  0.3 pkts/s;nic:cali47ba05de315;           
+  0.1 pkts/s;nic:cali5657c0b82f1;           
+  0.1 pkts/s;nic:vip-62bbd760;           
+  0.0 pkts/s;nic:bonding_masters;           
+  0.0 pkts/s;nic:cali9d513300932;           
+  0.0 pkts/s;nic:calibb2db330b08;           
+  0.0%;runtime-intel_rapl_msr.0;           
+  0.0%;I2C Adapter (i2c-0): SMBus I801 adapter at 0700;           
+  0.0%;runtime-iTCO_wdt.1.auto;           
+  0.0%;runtime-snd-soc-dummy;           
+  0.0%;runtime-platform-framebuffer.0;           
+  0.0%;runtime-reg-dummy;           
+  0.0%;runtime-pcspkr;           
+  0.0%;runtime-alarmtimer.0.auto;           
+  0.0%;PCI Device: Intel Corporation 82801I (ICH9 Family) SMBus Controller;           
+  0.0%;runtime-QEMU0002:00;           
+  0.0%;USB device: xHCI Host Controller;           
+  0.0%;runtime-serial8250;           
+  0.0 pkts/s;nic:calif52b7fb028e;           
+  0.0 pkts/s;nic:flannel.1;           
+  0.0 pkts/s;nic:cali63f921cfd92;           
+  0.0%;runtime-i8042;           
+  0.0%;Audio codec hwC0D0: QEMU;           
+  0.0%;USB device: xHCI Host Controller;           
+  0.0%;USB device: QEMU USB Tablet (QEMU);           
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/kmsg
+;/dev/rfkill
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+qemu-ga;/dev/vport1p1
+rngd;/dev/hwrng
+;/dev/random
+systemd-logind;/dev/input/event0
+;/dev/input/event3
+wickedd;/dev/rfkill
+wickedd-nanny;/dev/rfkill
+bpfilter_umh;/dev/kmsg
+kubelet;/dev/kmsg
+;/dev/kmsg
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+Enable SATA link power management for host3;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host3/link_power_management_policy';
+Enable SATA link power management for host4;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host4/link_power_management_policy';
+Enable SATA link power management for host5;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host5/link_power_management_policy';
+VM writeback timeout;echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+Enable SATA link power management for host0;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host0/link_power_management_policy';
+Enable SATA link power management for host1;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host1/link_power_management_policy';
+Enable SATA link power management for host2;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host2/link_power_management_policy';
+Runtime PM for PCI Device Red Hat, Inc. Virtio memory balloon;echo 'auto' > '/sys/bus/pci/devices/0000:05:00.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. Virtio network device;echo 'auto' > '/sys/bus/pci/devices/0000:01:00.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:03.3/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.5/power/control';
+Runtime PM for PCI Device Red Hat, Inc. Virtio console;echo 'auto' > '/sys/bus/pci/devices/0000:03:00.0/power/control';
+Runtime PM for disk sda;echo 'auto' > '/sys/block/sda/device/power/control';
+Runtime PM for disk sdb;echo 'auto' > '/sys/block/sdb/device/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:03.1/power/control';
+Runtime PM for PCI Device Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/power/control';
+Runtime PM for port ata1 of PCI device: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata1/power/control';
+Runtime PM for port ata2 of PCI device: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata2/power/control';
+Runtime PM for port ata3 of PCI device: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata3/power/control';
+Runtime PM for port ata4 of PCI device: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata4/power/control';
+Runtime PM for port ata5 of PCI device: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata5/power/control';
+Runtime PM for port ata6 of PCI device: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/ata6/power/control';
+Runtime PM for PCI Device Intel Corporation 82801IB (ICH9) LPC Interface Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU XHCI Host Controller;echo 'auto' > '/sys/bus/pci/devices/0000:02:00.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. Virtio block device;echo 'auto' > '/sys/bus/pci/devices/0000:04:00.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QXL paravirtual graphic card;echo 'auto' > '/sys/bus/pci/devices/0000:00:01.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.3/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.1/power/control';
+Runtime PM for PCI Device Intel Corporation 82801I (ICH9 Family) HD Audio Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1b.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:03.4/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:03.2/power/control';
+Runtime PM for PCI Device Intel Corporation 82G33/G31/P35/P31 Express DRAM Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:00.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. Virtio RNG;echo 'auto' > '/sys/bus/pci/devices/0000:06:00.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:03.0/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.6/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.4/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.7/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.2/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:03.5/power/control';
+Runtime PM for PCI Device Red Hat, Inc. QEMU PCIe Root port;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.0/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Adapter i2c-0 has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+Enable Audio codec power management
+NMI watchdog should be turned off
+Autosuspend for USB device xHCI Host Controller [usb2]
+Autosuspend for USB device QEMU USB Tablet [QEMU]
+Autosuspend for USB device xHCI Host Controller [usb1]
+Runtime PM for PCI Device Intel Corporation 82801I (ICH9 Family) SMBus Controller
+
+____________________________________________________________________
+ *  *  *   Wake status of the devices   *  *  *
+
+Description;Script
+Wake status for USB device usb1;echo 'enabled' > '/sys/bus/usb/devices/usb1/power/wakeup';
+Wake status for USB device 1-1;echo 'enabled' > '/sys/bus/usb/devices/1-1/power/wakeup';
+Wake status for USB device usb2;echo 'enabled' > '/sys/bus/usb/devices/usb2/power/wakeup';

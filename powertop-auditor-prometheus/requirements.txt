@@ -1,0 +1,3 @@
+powertop==0.2.2
+prometheus_client==0.14.1
+requests
